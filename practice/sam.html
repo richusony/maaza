@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2&display=swap" rel="stylesheet">    
+<title>Document</title>
+    <style>
+        body{
+            width: 360px;
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        #sec_1{
+            width: 350px;
+            padding:5px;
+            background-color: rgb(31, 207, 46);
+        }
+        #right-h{
+            position: absolute;
+            right:23px;
+            top: 13px;
+        }
+        #logo{
+            position: absolute;
+            right: 130px;
+            top: 20px;
+        }
+       #leaf{
+        margin-left: -42px;
+    width: 60%;
+    transform: rotateZ(109deg);
+       }
+       .content{
+           padding: 10px;
+       }
+       .content img{
+           width: 25%;
+           margin-left: 35%;
+       }
+       #first_p{
+           color:#ffff;
+           font-size: 1rem;
+           text-align: center;
+           font-family: 'Baloo 2', cursive;
+       }
+       #first_span{
+           color:#ffff;
+           text-align: center;
+           font-family: 'Acme', sans-serif;
+       }
+       #first_btn{
+           background-color: red;
+           color: #ffff;
+           width: 100px;
+           border-radius: 20%;
+           margin-left: 120px;
+       }
+
+       #sec_2{
+           width: 350px;
+           background-color: orange;
+           padding: 5px;
+       }
+       #second_content{
+           max-width: 300px;
+           margin-left: 20px;
+           padding: 10px;
+       }
+       #second_h1{
+           text-align: center;
+           font-family: 'Acme', sans-serif;
+       }
+       .second_p{
+           text-align: center;
+           font-family: 'Baloo 2', cursive;
+       }
+       #second_content2{
+           background-color: #ffff;
+          max-width: 250px;
+          height: 250px;
+          margin-left: 15%;
+          border-radius: 10%;
+          padding: 5px;
+       }
+       #second_img{
+           margin-left: 35%;
+       }
+       #second_h3{
+           text-align: center;
+       }
+       #second_btn{
+        background-color: red;
+           color: #ffff;
+           width: 100px;
+           border-radius: 20%;
+           margin-top: 30px;
+           margin-left: 120px;
+           margin-bottom: 10px;
+       }
+       #sec_3{
+           background-color: rgb(224, 51, 80);
+           width: 350px;
+           padding: 5px 5px 35px 5px;
+
+       }
+       #third_h1{
+           color: #ffff;
+           text-align: center;
+           font-family: 'Acme', sans-serif;
+       }
+       #third_p{
+           color: #ffff;
+           max-width: 259px;
+           margin-left: 12%;
+           text-align: center;
+           padding: 3px;
+           font-family: 'Baloo 2', cursive;
+       }
+       .sub-contents{
+           background-color: rgb(230, 230, 230);
+           margin-left: 13%;
+           max-width: 259px;
+           border-radius: 5px;
+       }
+       .img_sub{
+           max-width: 259px;
+       }
+       #third_img1{
+           border-radius: 5px 5px 0 0;
+       }
+       .txt{
+           padding: 15px;
+       }
+       #third_p2{
+           text-align: start;
+           font-family: 'Baloo 2', cursive;
+       }
+    .dashed{
+        margin-left: 110px;
+        max-width: 100px;
+        height: 120px;
+        margin-bottom: 5px;
+        margin-top:5px;
+        transform: rotate(100deg);
+    }
+    .lazyloaded{
+        opacity: 1;
+transition: opacity 400ms;
+  transition-delay: 0s;
+transition-delay: 0ms;
+    }
+
+    #sec_4{
+        background-color: rgb(55, 187, 55);
+        width: 350px;
+        padding: 5px;
+    }
+    #fourth_h1{
+        color: #ffff;
+        text-align: center;
+    }
+    #ingredients{
+        background-color: #ffff;
+        margin-left: 100px;
+        width: 126px;
+        height: 116px;
+        border-radius: 55%;
+    }
+    #fourth_h3{
+        max-width: 56px;
+        max-height: 20px;
+        color: #ffff;
+        text-align: center;
+        margin-left: 141px;
+        margin-top: 7px;
+        font-family: 'Baloo 4', cursive;
+    }
+    #first_third{
+        background-color: red;
+           color: #ffff;
+           width: 150px;
+           border-radius: 20%;
+           margin-top: 30px;
+           margin-left: 105px;
+           margin-bottom: 10px;
+    }
+    #sec_5{
+        background-color: yellow;
+        width: 350px;
+        padding: 5px;
+    }
+    .bottles{
+        max-width: 340px;
+        padding: 5px;
+    }
+    footer{
+        width: 310px;
+        padding: 25px;
+    }
+    #foot_con{
+        max-width: 120px;
+        font-size: 14px;
+    }
+    #foot_p{
+        max-width: 120px;
+    }
+    #foot_con2{
+        max-width: 120px;
+        font-size: 14px;
+    }
+    #foot_p2{
+        max-width: 120px;
+    }
+    #foot_con3{
+        max-width: 145px;
+        font-size: 14px;
+    }
+    #foot_p3{
+        max-width: 120px;
+        padding: 3px;
+    }
+
+    </style>
+
+</head>
+<body>
+    <section id="sec_1">
+    <img id="leaf" src="leaf.png" alt="">
+    <img id="logo" src="logo2x.png" width="30%" alt="maaza logo!!">
+    <svg id="right-h" width="109" height="49px" viewBox="0 0 239 46" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M0 0H239V46H0C32 37 44 14 0 0Z" fill="rgb(199, 188, 188)" />
+        <a href="#">Menu</a>
+        </svg>
+        <div class="content">
+            <img src="./bottle1.png" alt="">
+                <h1 id="first_span">Go On,
+                you deserve it!</h1>
+                <p id="first_p">
+                Maaza,the Hindi word for "enjoy",is the world's 
+                largest brand of tropical fruit
+                drinks.Having humble beginnings on the 
+                local mango fruit orchards of India,Maaza
+                has been a staple for almost 50 years.
+                Throughout the years,we've been 
+                dedicated to the pursuit of the best quality
+                tropical juice drinks.
+            </p>
+            <button id="first_btn">Discover Maaza</button>
+        </div>
+    </section>
+    <section id="sec_2">
+        <div id="second_content">
+        <h1 id="second_h1">Enjoy!</h1>
+        <p class="second_p">Enjoying life.Enjoying the moment.That's what Maaza's 
+            all about ,by providing great quality and authentic taste experiences for 
+            everybody to indulge in.</p> <br>
+            
+           <p class="second_p"> We believe that taking some me time is the best 
+            gift you can give yourself. This brand essence underpins 
+            everything we do.</p> <br>
+
+            <p class="second_p">All Maaza products are made from natural,single-strength purees,containing 
+            no artificial preservatives, colors, or flavors. Characterized by high juice content, superior 
+            quality in 13 delicious flavours in 9 different forms of packaging. <br>
+        </p>
+        </div>
+        <div id="second_content2">
+            <img  id="second_img" width=25% src="./bottle1.png" alt="">
+            <h3 id="second_h3">Tropical juice drink</h3>
+        </div>
+        <button id="second_btn">Check all products</button>
+    </section>
+    <section id="sec_3">
+        <h1 id="third_h1">Our journey</h1>
+        <p id="third_p">
+            Every step of our journey is designed 
+            to make the best quality tropical drinks 
+            available whereever they are desired,to 
+            everyone who desires them.
+        </p>
+        <div class="sub-contents">
+            <div class="img_sub">
+                <img id="third_img1" width="100%" height="100%" src="./mango.jpg" alt="" id="sub_img">
+            </div>
+            <div class="txt">
+                <b>The fruit orchards</b><br>
+                <p id="third_p2">
+                    To make sure we use only the 
+                    best quality fruit for Maaza 
+                    products, we monitor our fruit 
+                    orchards with great care.
+                </p>
+            </div>
+        </div>
+        <div class="dashed">
+            <img width="100%" height="100%" alt="" data-src="https://www.enjoymaaza.com/app/themes/maaza/assets/images/arrow-dashed.svg" class=" lazyloaded" src="https://www.enjoymaaza.com/app/themes/maaza/assets/images/arrow-dashed.svg">
+        </div>
+        <div class="sub-contents">
+            <div class="img_sub">
+                <img id="third_img1" width="100%" height="100%" src="./factory.jpg" alt="" id="sub_img">
+            </div>
+            <div class="txt">
+                <b>Producing the best quality tropical fruit juices</b><br>
+                <p id="third_p2">
+                    Fruit purees are delivered to production
+                     locations where the standards are highest
+                      production and quality requirements.
+                </p>
+            </div>
+        </div>
+        <div class="dashed">
+            <img width="100%" height="100%" alt="" data-src="https://www.enjoymaaza.com/app/themes/maaza/assets/images/arrow-dashed.svg" class=" lazyloaded" src="https://www.enjoymaaza.com/app/themes/maaza/assets/images/arrow-dashed.svg">
+        </div>
+        <div class="sub-contents">
+            <div class="img_sub">
+                <img id="third_img1" width="100%" height="100%" src="./juice.jpg" alt="" id="sub_img">
+            </div>
+            <div class="txt">
+                <b>The dedication</b><br>
+                <p id="third_p2">
+                    Maaza’s mission is to make the best quality
+                     tropical fruit drinks at affordable
+                     prices, available everywhere, for everyone to enjoy.
+                </p>
+            </div>
+        </div>
+    </section>
+    <section id="sec_4">
+        <h1 id="fourth_h1">
+            Natural ingredients
+        </h1>
+
+        <div id="ingredients">
+            <img width="100%" height="100%" src="./mangos.png" >
+        </div>
+        <h3 id="fourth_h3">Mango</h3>
+        <button id="first_third">Discover our rainbow of flavours</button>
+    </section>
+    <section id="sec_5">
+        <div class="bottles">
+            <img width="20%" height="40%" src="./btl1.png" alt="">
+            <img width="20%" height="40%" src="./btl2.png" alt="">
+            <img width="20%" height="40%" src="./btl3.png" alt="">
+            <img width="20%" height="40%" src="./btl4.png" alt="">
+        </div>
+    </section>
+    <footer>
+        <img id="end_lg" src="./logo2x.png" width="30%" alt="maaza logo!!">
+        <div class="flex-div">
+        <div id="foot_con">
+            <h3>Information</h3>
+            <p id="foot_p">Chamber of commerce Hilversum
+                NL 32033566 VAT NL.8015.52.606.B01 <br><br>
+
+                Maaza is the registered trademark of Infra 
+                Foodbrands B.V.
+            </p>
+            </div>
+            <div id="foot_con2">
+                <h3>Our products</h3>
+                <p id="foot_p2">
+                    Mango juice drink <br>
+                    Tropical juice drink <br>
+                    Guava juice drink <br>
+                    Lychee juice drink <br>
+                    Pomegranate juice drink <br>
+                    Banana juice drink <br>
+                    Papaya juice drink <br>
+                    Passion fruit juice drink <br>
+                    Coconut water <br>
+                    Sparkling drink <br>
+
+                </p>
+                </div>
+                <div id="foot_con3">
+                    <h3>Contact</h3>
+                    <p id="foot_p3">
+                        Infra Foodbrands 
+                        Hogehilweg 4
+                        1101 CC Amstredam 
+                        020 311 30 70
+                        info@infrafoodbrands.nl 
+                    </p>
+                </div>
+    </footer>
+</body>
+</html>
+
+
+
